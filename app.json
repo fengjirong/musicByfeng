@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/playing/playing",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF4500",
+    "navigationBarTitleText": "冯吉荣的音乐",
+    "navigationBarTextStyle": "write",
+    "navigationStyle": "default"
+  }
+}

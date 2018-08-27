@@ -1,0 +1,25 @@
+<!--pages/playing/playing.wxml-->
+<view class='Main'>
+  <view class='songNameView'>
+    <text></text>
+    <text class='songName'>{{name}}</text>
+  </view>
+  <view class='imageView' style="background-image: url({{imageUrl}});" animation="{{animationData}}">
+  </view>
+   <view class="backIndex" bindtap='backIndex' style='background-image:url({{homeImage}})'></view>
+  <view class='line'>
+    <view class='nowView'>
+      <text class='now'>{{cur}}</text>
+    </view>
+    <view class='theLine'></view>
+    <view class='allTimeView'>
+      <text class='allTime'>{{duration}}</text>
+    </view>
+  </view>
+  <view class="button">
+    <view class='back MusicIcon' style="background-image: url({{backUrl}});" bindtap='theBack'></view>
+    <view class='center MusicIcon' style="background-image: url({{playOrStopUrl}});" bindtap='play'></view>
+    <view class='next MusicIcon' style="background-image: url({{nextUrl}});" bindtap='theNext'></view>
+  </view>
+</view>
+

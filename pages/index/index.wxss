@@ -1,0 +1,132 @@
+/**index.wxss**/
+page{
+  height: 100%;
+}
+
+.theMain{
+  height: 100%;
+  width: 100%;
+  background-size: 150% 150%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.iconfont {
+ font-family:"iconfont" !important;
+ font-size:60rpx;
+ font-style:normal;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+.image1 {
+  margin-left: 32px;
+  height: 125px;
+  width: 300px;
+}
+
+    .search{  
+      width: 80%;  
+    }  
+    .search_arr {  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+      margin-left: 20rpx;  
+    }  
+    .search_arr input{  
+      margin-left: 60rpx;  
+      height: 60rpx;  
+      border-radius: 5px;  
+    }  
+    .bc_text {  
+      line-height: 68rpx;  
+      height: 68rpx;  
+      margin-top: 34rpx;  
+    }  
+      
+    .sousuo {  
+      margin-left: 15rpx;  
+      width: 15%;  
+      line-height: 150%;  
+      text-align: center;  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+    }  
+    .page_row{  
+      display: flex;  
+      flex-direction: row;
+      margin-top: 10px;  
+    }  
+    .searchcion {  
+      margin: 10rpx 10rpx 10rpx 10rpx;  
+      position: absolute;  
+      left:25rpx;  
+      z-index: 2;  
+      width: 20px;  
+      height: 20px;  
+      text-align: center;  
+    }  
+    .musictext{
+      font-size: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .music_list{
+      margin-top: 5px;
+      height: 25px;
+      background-color: #F2F2F2;
+    }
+    .url{
+      display: none;
+    }
+    .listBar{
+        background:#eff7ff;
+        flex-direction: row;
+        display: flex;
+        margin-top: 5px;
+    }
+    .littlebar{
+      position: fixed;
+      bottom: 10px;
+      width: 100%;
+      height: 60px;
+      background-color: #e7ece9;
+      border-radius: 10px;
+      flex-direction: row;
+      display: flex;
+    }
+    .littleImage{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-size: cover;
+    }
+    .littleName{
+      width: 80%;
+      height: 30px;
+      margin-top: 15px;
+    }
+    .songNameText{
+      font-size: 80%;
+      color:#d5888c;
+    }
